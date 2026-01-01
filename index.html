@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>my portfolio</title>
+  <section class="place"
+  <img src="/port.muzan /Screenshot_20251108-223858.png">
+    <h1 class="hello">
+      HELLO, I'M MUZAN 
+    </h1>
+    <p class="bio">
+      A Frontend web developer specialized in HTML,CSS, JavaScript and modern web technologies.
+    </p>
+    </section>
+    
+    
+  <section>
+       <button class="html">
+         HTML
+      </button>
+       <button class="css">
+         CSS
+      </button>
+       <button class="java">
+         JAVASCRIPT
+       </button>
+ </section>
+ <section class="sec">
+   <h2>
+     ABOUT ME
+   </h2>
+   <P class="about">
+ Hey, I'm Muzan! 💻 I'm a front-end developer with a passion for crafting sleek, responsive websites that blend style with functionality. I specialize in HTML, CSS, and JavaScript, bringing designs to life pixel by pixel. I love building interactive UIs, tweaking animations, and ensuring seamless user experiences. With a keen eye for design and a focus on clean code, I turn ideas into engaging digital experiences. I'm always leveling up my skills and exploring new tech to stay ahead in the game. Whether it's a portfolio site, a dynamic app, or a simple landing page, I pour my energy into making it look 🔥 and perform flawlessly. Let's build something awesome together! 🚀 I've worked on projects that range from e-commerce platforms to creative showcases, always pushing boundaries to deliver intuitive and delightful experiences. When I'm not coding, I'm probably experimenting with UI trends, contributing to open-source, or sharing tips on making the web a more beautiful place😊.
+ <br>
+ <br>
+<a href="page.html">VIEW MY WORK</a>
+
+   </P>
+ </section>
+ <br>
+ <br>
+ <section class="hello">
+<a href="https://wa.me/+2347037392295" class="whatsapp-link">Get in touch</a>
+  </section>
+  <style>
+    img{
+      width:300px;
+      margin-left:24px;
+      border-radius:150px;
+      box-shadow: 0 0 10px blue;
+      margin-top:20px;
+
+   /* adjust */
+  
+  /* start invisible for intro */
+  opacity: 0;
+  transform: translateY(40px) scale(0.9);
+
+  /* run TWO animations */
+  animation:
+    intro 1.2s ease-out forwards,
+    float 3s ease-in-out infinite;
+
+  /* delay the floating so it starts AFTER intro */
+  animation-delay: 0s, 1.2s;
+}
+
+/* INTRO ANIMATION */
+@keyframes intro {
+  0% {
+    opacity: 0;
+    transform: translateY(40px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* FLOATING UP & DOWN */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px); /* not too up */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+    
+    body {
+    background-color:black;
+    color: white ;
+
+     margin:0px!important;
+  }
+    .hello{
+      color:white;
+      font-family:'rabelo'sans-serif;
+      margin-top:40px;
+      margin-left:20px;
+      opacity: 0;
+  transform: translateY(40px) scale(0.9);
+
+  /* run TWO animations */
+  animation:
+    intro 1.2s ease-out forwards,
+    float 3s ;
+
+  /* delay the floating so it starts AFTER intro */
+  animation-delay: 0s, 1.2s;
+}
+
+/* INTRO ANIMATION */
+@keyframes intro {
+  0% {
+    opacity: 0;
+    transform: translateY(40px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+
+
+    }
+    .bio{
+      font-size:18px;
+      color:#999;
+      margin-left:20px;
+      margin-top:5px;
+   opacity: 0;
+  transform: translateY(40px) scale(0.9);
+
+  /* run TWO animations */
+  animation:
+    intro 1.2s ease-out forwards,
+    float 3s ;
+
+  /* delay the floating so it starts AFTER intro */
+  animation-delay: 0s, 1.2s;
+}
+
+/* INTRO ANIMATION */
+@keyframes intro {
+  0% {
+    opacity: 0;
+    transform: translateY(40px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    }
+}
+    .html {
+      padding-top: 10px;
+      color:white;
+      background:rgba(255, 255, 255, 0.2);
+      backdrop-filter:blur(10px);
+      border-radius:20px;
+      padding-bottom:10px;
+      padding:7px;
+      border:none;
+      margin-left:20px;
+    }
+    .css{
+      padding-top: 10px;
+      color:white;
+      background:rgba(255, 255, 255, 0.2);
+      backdrop-filter:blur(10px);
+      border-radius:20px;
+      padding-bottom:10px;
+      padding:7px;
+      border:none;
+    }
+    .java{
+padding-top: 10px;
+color:white;
+background:rgba(255, 255, 255, 0.2);
+backdrop-filter:blur(10px);
+border-radius:20px;
+padding-bottom:10px;
+padding:7px;
+border:none;
+    }
+    .about{
+      color:#999;
+      margin-left:20px;
+    }
+    h2{
+      color:white;
+      margin-left:125px;
+      
+    }
+    .sec{
+      margin-top:400px;
+      border:1px;
+      background-color:#1a1a1a;
+      padding-top:10px;
+      padding-bottom:10px;
+    }
+    .whatsapp-link {
+      color:white;
+      background-color:#1a1a1a;
+      border:none;
+      padding:10px;
+      margin-top:50px;
+      text-decoration:none;
+      border-radius:30px;
+      margin-left:105px;
+    }
+    .hello{
+  margin-top:20px;
+}
+     a{
+padding-top: 10px;
+color:white;
+background:rgba(255, 255, 255, 0.2);
+backdrop-filter:blur(10px);
+border-radius:20px;
+padding-bottom:10px;
+padding:7px;
+border:none;
+margin-left:90px;
+margin-top:20px;
+text-decoration:none;
+     }
+  </style>
+</head>
+
+<body>
+  
+</body>
+
+</html>
